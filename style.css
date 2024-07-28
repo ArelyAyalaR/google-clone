@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+}
+
+figure{
+    width: 20px;
+}
+
+#cuadro{
+    width: 20px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+#logo{
+    margin-top: 20vh;
+    height: 92px;
+}
+
+#buscador{
+    display: flex;
+    border: 1px solid #dadce0;
+    align-items: stretch;
+    border-radius: 20px;
+    height: 46px;
+    margin: 25px 0px;
+    width: 572px;
+    justify-content: center;
+}
+
+#buscador input{
+    flex-grow: 1;
+}
+
+article{
+    text-align: center;
+}
+
+footer{
+    background: #f2f2f2;
+}
+
+footer p{
+    padding: 15px;
+    margin: 0px;
+    border-bottom: 1px solid #dadce0;
+}
