@@ -1,71 +1,136 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
     margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-figure{
+figure {
+    width: 20px;
+    margin: 0px;
+    padding: 14px;
+}
+
+#cuadro {
     width: 20px;
 }
 
-#cuadro{
-    width: 20px;
-}
-
-footer div{
+footer div {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-ul li{
+ul li {
     display: inline-block;
     padding: 15px;
 }
 
-ul{
+ul {
     padding: 0px;
     margin: 0px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: end;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 82.5vh;
 }
 
-#logo{
+#logo {
     margin-top: 20vh;
     height: 92px;
 }
 
-#buscador{
+#buscador {
     display: flex;
     border: 1px solid #dadce0;
     align-items: stretch;
     border-radius: 20px;
     height: 46px;
-    margin: 25px 0px;
+    margin: 25px 0px 18px 0px;
     width: 572px;
     justify-content: center;
 }
 
-#buscador input{
-    flex-grow: 1;
+#buscador:hover{
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
 }
 
-article{
+#buscador input {
+    flex-grow: 1;
+    border: none;
+}
+
+#buscador input:focus-visible {
+    outline: none;
+}
+
+article {
     text-align: center;
 }
 
-footer{
+footer {
     background: #f2f2f2;
 }
 
-footer p{
+footer p {
     padding: 15px;
     margin: 0px;
     border-bottom: 1px solid #dadce0;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding: 0 16px;
+    height: 37px;
+    font-size: 14px;
+    color: #3c4043;
+    margin: 11px 4px;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header a {
+    font-size: 13px;
+    color: #1f1f1f;
+}
+
+footer a {
+    font-size: 14px;
+    color: #202124;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+#perfil {
+    width: 35px;
+    border-radius: 50%;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
